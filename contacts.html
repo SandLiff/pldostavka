@@ -2,11 +2,11 @@
 <html lang="uk">
 
 <head>
-	<title>HomePage</title>
+	<title>Контакти</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230220081846">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230221135643">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,15 +17,8 @@
 		<header class="header">
 			<div class="header__container">
 				<div class="header__top">
-					<a href="home.html" class="header__logo"><img src="img/header/logo.svg" alt="" /></a>
 					<button type="button" class="menu__icon icon-menu"><span></span></button>
 					<div data-da=".menu__body, 767.5" class="header__actions">
-						<div class="header__languages languages">
-							<ul class="languages__list">
-								<li class="languages__item"><a href="" class="languages__language">Українська</a></li>
-								<li class="languages__item"><a href="" class="languages__language">English</a></li>
-							</ul>
-						</div>
 						<a href="booking.html" class="header__button">Оформити замовлення</a>
 						<a class="header__call" href="tel:+380962150014">+380 96 215 0014</a>
 					</div>
@@ -59,20 +52,22 @@
 			</div>
 		</header>
 
-		<main class="page"></main>
+		<main class="page">
+			<div class="page__arrow arrow">
+				<a href="" class="arrow__item"><span></span></a>
+			</div>
+		</main>
 		<footer class="footer">
 			<div class="footer__container">
 				<div class="footer__menu">
 					<h2 class="footer__title">Навігація</h2>
 					<nav class="footer__nav nav">
 						<ul class="nav__list">
-							<li class="nav__item"><a href="" class="nav__link">Про нас</a></li>
-							<li class="nav__item"><a href="" class="nav__link">Доставка</a></li>
-							<li class="nav__item"><a href="" class="nav__link">Список магазинів</a></li>
-							<li class="nav__item"><a href="" class="nav__link">Відгуки</a></li>
-							<li class="nav__item"><a href="" class="nav__link">Товари на складі в Україні</a></li>
-							<li class="nav__item"><a href="" class="nav__link">Правила магазину</a></li>
-							<li class="nav__item"><a href="" class="nav__link">Повернення</a></li>
+							<li class="nav__item"><a href="about.html" class="nav__link">Про нас</a></li>
+							<li class="nav__item"><a href="delivery.html" class="nav__link">Доставка</a></li>
+							<li class="nav__item"><a href="list.html" class="nav__link">Список магазинів</a></li>
+							<li class="nav__item"><a href="reviews.html" class="nav__link">Відгуки</a></li>
+							<li class="nav__item"><a href="stock.html" class="nav__link">Товари на складі в Україні</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -87,9 +82,14 @@
 				<div class="footer__social social">
 					<h2 class="footer__title">Соц. мережі</h2>
 					<ul class="social__list">
-						<li class="social__item"><a href="" class="social__link">Instagram</a></li>
-						<li class="social__item"><a href="" class="social__link">Facebook</a></li>
-						<li class="social__item"><a href="" class="social__link">G+</a></li>
+						<li class="social__item">
+							<a href="https://www.instagram.com/p/CljUZ6UNMYS/?igshid=YmMyMTA2M2Y=" target="_blank" class="social__link">
+								<picture><source srcset="img/footer/inst.webp" type="image/webp"><img src="img/footer/inst.png" alt="instagram" /></picture></a>
+						</li>
+						<li class="social__item">
+							<a href="https://www.facebook.com/groups/1600153050379614" target="_blank" class="social__link">
+								<picture><source srcset="img/footer/fb.webp" type="image/webp"><img src="img/footer/fb.png" alt="facebook" /></picture></a>
+						</li>
 					</ul>
 				</div>
 				<div class="footer__copyright">
@@ -100,7 +100,7 @@
 		</footer>
 
 	</div>
-	<script src="js/app.min.js?_v=20230220081846"></script>
+	<script src="js/app.min.js?_v=20230221135643"></script>
 </body>
 
 </html>

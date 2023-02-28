@@ -2,11 +2,11 @@
 <html lang="uk">
 
 <head>
-	<title>HomePage</title>
+	<title>Головна</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230220081846">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230221135643">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,15 +17,8 @@
 		<header class="header">
 			<div class="header__container">
 				<div class="header__top">
-					<a href="home.html" class="header__logo"><img src="img/header/logo.svg" alt="" /></a>
 					<button type="button" class="menu__icon icon-menu"><span></span></button>
 					<div data-da=".menu__body, 767.5" class="header__actions">
-						<div class="header__languages languages">
-							<ul class="languages__list">
-								<li class="languages__item"><a href="" class="languages__language">Українська</a></li>
-								<li class="languages__item"><a href="" class="languages__language">English</a></li>
-							</ul>
-						</div>
 						<a href="booking.html" class="header__button">Оформити замовлення</a>
 						<a class="header__call" href="tel:+380962150014">+380 96 215 0014</a>
 					</div>
@@ -60,6 +53,9 @@
 		</header>
 
 		<main class="page">
+			<div class="page__arrow arrow">
+				<a href="" class="arrow__item"><span></span></a>
+			</div>
 			<section class="page__main-block main-block">
 				<div class="main-block__container">
 					<div class="main-block__label">
@@ -73,8 +69,8 @@
 							</div>
 							<h3 class="main-block__caption">Мінімальна комісія %?</h3>
 							<div class="main-block__text">
-								<p>Ми доставляємо товари з магазинів Польщі під 6,38%, без додаткової оплати за вагу.</p>
-								<p>Це стосується замовлень вагою до 10 кг. Якщо вага товару більше 10 кг – ми окремо прорахуємо вартість доставки.</p>
+								<p>Ми доставляємо товари з магазинів Польщі під відсотки без додаткової оплати за вагу.</p>
+								<p>Якщо вага товару більше 50 кг – ми окремо прорахуємо вартість доставки.</p>
 								<p>
 									При замовленні товару з країн Євросоюзу - замовлення ми розраховуємо індивідуально, через різницю ставок VAT в Європі.
 								</p>
@@ -86,11 +82,8 @@
 							</div>
 							<h3 class="main-block__caption">Чому в Польщі?</h3>
 							<div class="main-block__text">
-								<p>Ми доставляємо товари з магазинів Польщі під 6,38%, без додаткової оплати за вагу.</p>
-								<p>Це стосується замовлень вагою до 10 кг. Якщо вага товару більше 10 кг – ми окремо прорахуємо вартість доставки.</p>
-								<p>
-									При замовленні товару з країн Євросоюзу - замовлення ми розраховуємо індивідуально, через різницю ставок VAT в Європі.
-								</p>
+								<p>Промоніторивши трохи ринок Європи - Ви зрозумієте, що ціни на товари на порядок нижчі від ринкових цін в Україні.</p>
+								<p>Сотні людей це вже зрозуміли і купують тільки там - ціна нижча, а якість продукції значно вища.</p>
 							</div>
 						</div>
 						<div class="main-block__column">
@@ -187,7 +180,7 @@
 							</div>
 							<h3 class="features__caption">Доставка будь-яких вантажів</h3>
 							<div class="features__text">
-								<p>Доставляємо вантажі будь-яких форматів, габаритів та вартості (габаритний товар тимчасово не доставляємо)</p>
+								<p>Доставляємо вантажі будь-яких форматів, габаритів та вартості</p>
 							</div>
 						</div>
 						<div class="features__column">
@@ -196,7 +189,10 @@
 							</div>
 							<h3 class="features__caption">Інформація про статус замовлення</h3>
 							<div class="features__text">
-								<p>Статуси замовлення можна відстежити в особистому кабінеті або через запит на пошту або вайбер.</p>
+								<p>
+									Статуси замовлення можна відстежити в особистому кабінеті або через запит на пошту або
+									<a style="color: blue" href="https://t.me/pldostavka">TELEGRAM</a>.
+								</p>
 							</div>
 						</div>
 						<div class="features__column">
@@ -215,41 +211,12 @@
 							<h3 class="features__caption">Оплата перед відправкою з платіжною системою PayU</h3>
 							<div class="features__text">
 								<p>
-									Замовлення вартістю від 1000 плн можна сплатити за передоплатою 50%. Залишок оплачується перед відправкою Україною. Це
-									стосується лише нових товарів. Уживані товари оплачуються при 100% передоплаті. Перед оплатою можна замовити фотозвіт
-									замовлення (послуга платна - 2 фото з бази/1$)
+									Товари оплачуються при 100% передоплаті. Перед оплатою можна замовити фотозвіт замовлення (послуга платна - 2 фото з
+									бази/1$)
 								</p>
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
-			<section class="page__form form">
-				<div class="form__container">
-					<form action="#" class="form__body">
-						<h2 class="form__title">Оформити замовлення</h2>
-						<div class="form__item">
-							<label class="form__label" for="formName">Ім'я*:</label>
-							<input id="formName" name="name" class="form__input _req" type="text" />
-						</div>
-						<div class="form__item">
-							<label class="form__label" for="formPhone">Номер телефону*:</label>
-							<input id="formPhone" name="phone" class="form__input _req" type="tel" />
-						</div>
-						<div class="form__item">
-							<label class="form__label" for="formEmail">Ел. пошта*:</label>
-							<input id="formEmail" name="email" class="form__input _req" type="email" />
-						</div>
-						<div class="form__item">
-							<label class="form__label" for="formInfo">Габарити товару*:</label>
-							<input id="formInfo" name="info" class="form__input _reqt" type="text" />
-						</div>
-						<div class="form__item">
-							<label class="form__label" for="formLink">Посилання на товар*:</label>
-							<input id="formLink" name="link" class="form__input _req" type="text" />
-						</div>
-						<button type="submit" class="form__button">Надіслати</button>
-					</form>
 				</div>
 			</section>
 		</main>
@@ -259,13 +226,11 @@
 					<h2 class="footer__title">Навігація</h2>
 					<nav class="footer__nav nav">
 						<ul class="nav__list">
-							<li class="nav__item"><a href="" class="nav__link">Про нас</a></li>
-							<li class="nav__item"><a href="" class="nav__link">Доставка</a></li>
-							<li class="nav__item"><a href="" class="nav__link">Список магазинів</a></li>
-							<li class="nav__item"><a href="" class="nav__link">Відгуки</a></li>
-							<li class="nav__item"><a href="" class="nav__link">Товари на складі в Україні</a></li>
-							<li class="nav__item"><a href="" class="nav__link">Правила магазину</a></li>
-							<li class="nav__item"><a href="" class="nav__link">Повернення</a></li>
+							<li class="nav__item"><a href="about.html" class="nav__link">Про нас</a></li>
+							<li class="nav__item"><a href="delivery.html" class="nav__link">Доставка</a></li>
+							<li class="nav__item"><a href="list.html" class="nav__link">Список магазинів</a></li>
+							<li class="nav__item"><a href="reviews.html" class="nav__link">Відгуки</a></li>
+							<li class="nav__item"><a href="stock.html" class="nav__link">Товари на складі в Україні</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -280,9 +245,14 @@
 				<div class="footer__social social">
 					<h2 class="footer__title">Соц. мережі</h2>
 					<ul class="social__list">
-						<li class="social__item"><a href="" class="social__link">Instagram</a></li>
-						<li class="social__item"><a href="" class="social__link">Facebook</a></li>
-						<li class="social__item"><a href="" class="social__link">G+</a></li>
+						<li class="social__item">
+							<a href="https://www.instagram.com/p/CljUZ6UNMYS/?igshid=YmMyMTA2M2Y=" target="_blank" class="social__link">
+								<picture><source srcset="img/footer/inst.webp" type="image/webp"><img src="img/footer/inst.png" alt="instagram" /></picture></a>
+						</li>
+						<li class="social__item">
+							<a href="https://www.facebook.com/groups/1600153050379614" target="_blank" class="social__link">
+								<picture><source srcset="img/footer/fb.webp" type="image/webp"><img src="img/footer/fb.png" alt="facebook" /></picture></a>
+						</li>
 					</ul>
 				</div>
 				<div class="footer__copyright">
@@ -293,7 +263,7 @@
 		</footer>
 
 	</div>
-	<script src="js/app.min.js?_v=20230220081846"></script>
+	<script src="js/app.min.js?_v=20230221135643"></script>
 </body>
 
 </html>
